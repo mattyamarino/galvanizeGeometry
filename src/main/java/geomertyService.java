@@ -7,7 +7,6 @@ import model.Shape;
 import java.lang.Math;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 
 public class geomertyService {
@@ -29,23 +28,23 @@ public class geomertyService {
     }
 
     public String getRectangleInformation(Rectangle rectangle)  {
-        String cordinates;
-        try {
-            cordinates = " at (" + rectangle.getPoint().getX() + "," + rectangle.getPoint().getY() + ")";
-        } catch (NonExistingPointException ex) {
-            cordinates = "";
-        }
+        String cordinates = getCordinates(rectangle);
         return rectangle.getLength() + " X " + rectangle.getWidth() + " rectangle" + cordinates;
     }
 
     public String getCircleInformation(Circle circle) {
+        String cordinates = getCordinates(circle);
+        return "circle of radius " + circle.getRadius() + cordinates;
+    }
+
+    String getCordinates(Shape shape) {
         String cordinates;
         try {
-            cordinates = " at (" + circle.getPoint().getX() + "," + circle.getPoint().getY() + ")";
+            cordinates = " at (" + shape.getPoint().getX() + "," + shape.getPoint().getY() + ")";
         } catch (NonExistingPointException ex) {
             cordinates = "";
         }
-        return "circle of radius " + circle.getRadius() + cordinates;
+        return cordinates;
     }
 
     public String getPointInformation(Point point) {

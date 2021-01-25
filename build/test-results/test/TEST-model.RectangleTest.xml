@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="model.RectangleTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-01-25T21:55:27" hostname="LTUS120094" time="0.006">
+  <properties/>
+  <testcase name="getColor_returnsNewlySetColor" classname="model.RectangleTest" time="0.0"/>
+  <testcase name="setters_setsLengthAndWidth" classname="model.RectangleTest" time="0.002"/>
+  <testcase name="getArea_returnsSetArea" classname="model.RectangleTest" time="0.001"/>
+  <testcase name="getPoint_throwsNonExistingPointException" classname="model.RectangleTest" time="0.0"/>
+  <testcase name="getOffset_offsetsXAndYValueByAmountsProvided" classname="model.RectangleTest" time="0.001"/>
+  <testcase name="getPerimeter_returnsSetPerimeter" classname="model.RectangleTest" time="0.0"/>
+  <testcase name="getColor_returnsDefaultColor" classname="model.RectangleTest" time="0.0"/>
+  <testcase name="getters_returnsLengthAndWidth" classname="model.RectangleTest" time="0.0"/>
+  <testcase name="getters_returnsDefaultLengthAndWidthIfGivenNoInput" classname="model.RectangleTest" time="0.0"/>
+  <testcase name="getPoint_retrievesSetPoint" classname="model.RectangleTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
