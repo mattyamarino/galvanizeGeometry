@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="model.CircleTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-01-25T21:55:27" hostname="LTUS120094" time="0.001">
+<testsuite name="model.CircleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-25T22:22:28" hostname="LTUS120094" time="0.008">
   <properties/>
-  <testcase name="getRadius_returnsDefaultValueIfUsingEmptyConstructor" classname="model.CircleTest" time="0.0"/>
-  <testcase name="getColor_returnsNewlySetColor" classname="model.CircleTest" time="0.0"/>
-  <testcase name="getRadius_returnsRadius" classname="model.CircleTest" time="0.0"/>
-  <testcase name="getColor_returnsDefaultColor" classname="model.CircleTest" time="0.0"/>
-  <testcase name="setRadius_setsValueProvided" classname="model.CircleTest" time="0.0"/>
+  <testcase name="updateRadius" classname="model.CircleTest" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

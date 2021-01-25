@@ -43,4 +43,10 @@ public class CircleTest{
     }
 
 
+    @Test
+    public void updateRadius() {
+        circle = new Circle(20);
+        circle.updateRadius(-10);
+        assertEquals(10, circle.getRadius(), 0);
+    }
 }

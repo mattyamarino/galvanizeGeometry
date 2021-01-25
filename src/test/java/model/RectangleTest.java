@@ -83,4 +83,12 @@ public class RectangleTest{
         assertEquals(expected, rectangle.getPoint());
     }
 
+    @Test
+    public void updateWidthAndLength() {
+        rectangle = new Rectangle(10,20);
+        rectangle.updateWidth(5);
+        rectangle.updateLength(5);
+        assertEquals(15, rectangle.getWidth(), 0);
+        assertEquals(25, rectangle.getLength(), 0);
+    }
 }

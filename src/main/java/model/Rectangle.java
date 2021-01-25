@@ -29,4 +29,12 @@ public class Rectangle extends Shape {
     public void setWidth(double width) {
         this.width = width;
     }
+
+    public void updateWidth(double width) {
+        this.width += width;
+    }
+
+    public void updateLength(double length) {
+        this.length += length;
+    }
 }

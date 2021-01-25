@@ -2,7 +2,6 @@ package model;
 
 public class Circle extends Shape{
     private double radius;
-    private String color = "Burnt Umber";
 
     public Circle() {
         this.radius = 1;
@@ -18,5 +17,9 @@ public class Circle extends Shape{
 
     public void setRadius(double radius) {
         this.radius = radius;
+    }
+
+    public void updateRadius(double radius) {
+        this.radius += radius;
     }
 }
